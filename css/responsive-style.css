@@ -1,0 +1,57 @@
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {
+   .sidebar .shortcut-links a  {
+     font-size: 14px;
+
+   }
+  .sidebar .shortcut-links a img {
+   width: 18px;
+   margin-right: 5px;
+  }
+}
+
+@media (max-width: 900px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .main-container,
+  .main-container-large {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+   .nav-right img {
+     display: none;
+   }
+
+   .nav-right .user-icon {
+     display: block;
+     width: 30px
+   }
+
+
+}
+
+@media (max-width: 767px) {
+   
+    .nav-middle .search-box {
+      width: 200px;
+    }
+    .nav-middle .search-box img{
+      position: relative;
+      left: -30px;
+      top: 0;
+    }
+    .nav-middle .mic-icon{
+      display: none;
+    }
+}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 490px) {}
